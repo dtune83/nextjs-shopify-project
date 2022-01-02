@@ -1,14 +1,36 @@
+import Hero from '../components/Hero'
 import Head from 'next/head'
 import { getProductsInCollection } from '../lib/shopify'
 import ProductList from '../components/ProductList'
 
 export default function Home({ products }) {
-   console.log(products)
 
   return (
     <>
-    <div className="text-red-700 text-2xl">
-        <ProductList products={products} />
+      <div>
+        <Head>
+          <title>MedRight - Target Response Formulations</title>
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+          <meta name="description" content="Creating target response formulated cannabis products." />
+          <meta property="og:title" content="MedRight - Target Response Formulations" />
+          <meta property="og:type" content="websidte" />
+          <meta property="og:url" content="https://www.mymedright.com" />
+          <meta property="og:image" content="https://www.mymedright.com/share.png" />
+          <meta property="og:description" content="Creating target response formulated cannabis products." />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:site_name" content="MedRight - Target Response Formulations" />
+
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+          <link rel="manifest" href="/site.webmanifest" />
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+          <meta name="theme-color" content="#ffffff" />
+        </Head>
+        <Hero />
+          <ProductList products={products} />
       </div>
     </>
   )
