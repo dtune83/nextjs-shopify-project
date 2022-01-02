@@ -9,6 +9,7 @@ export default function Home({ products }) {
     <>
       <div>
         <Head>
+          <html lang="en" />
           <title>MedRight - Target Response Formulations</title>
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
