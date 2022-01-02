@@ -10,17 +10,17 @@ export default function Home({ products }) {
       <div>
         <Head>
           <html lang="en" />
-          <title>MedRight - Target Response Formulations</title>
+          <title>#####PUT TITLE HERE#####</title>
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-          <meta name="description" content="Creating target response formulated cannabis products." />
-          <meta property="og:title" content="MedRight - Target Response Formulations" />
-          <meta property="og:type" content="websidte" />
-          <meta property="og:url" content="https://www.mymedright.com" />
-          <meta property="og:image" content="https://www.mymedright.com/share.png" />
-          <meta property="og:description" content="Creating target response formulated cannabis products." />
+          <meta name="description" content="#######PUT TITLE DESCRIPTION TOO#######" />
+          <meta property="og:title" content="#######PUT TITLE HERE TOO#######" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://www.###PUT_SITE_HERE###.com" />
+          <meta property="og:image" content="https://www.###PUT_SITE_HERE###.com/share.png" />{/* put a screenshot/image here for placeholder*/}
+          <meta property="og:description" content="#######PUT TITLE DESCRIPTION TOO#######" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:site_name" content="MedRight - Target Response Formulations" />
+          <meta property="og:site_name" content="#######PUT TITLE HERE TOO#######" />
 
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
