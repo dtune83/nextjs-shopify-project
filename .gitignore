@@ -32,3 +32,14 @@ yarn-error.log*
 
 # vercel
 .vercel
+.next/build-manifest.json
+.next/cache/webpack/client-development/index.pack
+.next/cache/webpack/client-development/index.pack.old
+.next/server/_error.js
+.next/server/pages-manifest.json
+.next/server/pages/index.js
+.next/static/chunks/_error.js
+.next/static/chunks/pages/index.js
+.next/static/chunks/webpack.js
+.next/static/development/_buildManifest.js
+.next/trace
