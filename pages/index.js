@@ -9,7 +9,7 @@ export default function Home({ products }) {
     <>
       <div>
         <Head>
-          <html lang="en" />
+          {/* <html lang="en" /> */}
           <title>#####PUT TITLE HERE#####</title>
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
